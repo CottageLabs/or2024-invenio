@@ -1,0 +1,13 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "or24-invenio-db",
+      "Group": "Servers",
+      "Host": "or24-invenio-db-1",
+      "Port": 5432,
+      "MaintenanceDB": "postgres",
+      "Username": "or24-invenio",
+      "SSLMode": "prefer"
+    }
+  }
+}
