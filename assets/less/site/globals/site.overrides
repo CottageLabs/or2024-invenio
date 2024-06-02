@@ -1,0 +1,8 @@
+/* Image as header background */
+
+.outer-navbar {
+  background-image: url('../../../../static/images/clarpost.png');
+  background-color: @navbarBackgroundColor;
+  border-color: transparent;
+  background-size: cover;
+}

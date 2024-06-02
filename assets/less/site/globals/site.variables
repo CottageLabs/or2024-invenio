@@ -1,0 +1,29 @@
+/* Replace the standard gradient with an image */
+/* @navbarBackgroundImage: url('../../../../static/images/clarpost.png'); */
+
+/* Our CL brand colours */
+@cl-red: #940101;
+@cl-green: #005500;
+@cl-brown: #5a3f40;
+@cl-blue: #005b93;
+@cl-black: #333333;
+@cl-redwood: #a76968;
+@cl-sage: #bea6a0;
+@cl-moonstone: #67a6d1;
+@cl-baby-powder: #fffcf8;
+
+/* Change some basic theme colours */
+@primaryColor: @cl-moonstone;
+@secondaryColor: @cl-black;
+@featuredListBackgroundColor: @cl-redwood;
+@primaryDarkenColor: @cl-blue;
+
+/* Some more granular colour changes */
+@highlightLandingPageBackgroundColor: @cl-baby-powder;
+
+/* Particular changes to footer */
+@footerLightColor: @featuredListBackgroundColor;
+@footerDarkColor: @secondaryColor;
+@subFooterColor: @footerDarkColor;
+@footerTextLightColor: #ffffff;
+@footerTextDarkColor: #ffffff;
